@@ -1,0 +1,70 @@
+(Denite)\\<Space><Space>	Bring up the denite buffer
+(Denite)\\<Tab>	Choose an action to perform on the selection
+(Denite insert)\\<C-B>	move caret to head
+(Denite insert)\\<C-E>	move caret to tail
+(Denite insert)\\<BS>	delete char before caret
+(Denite insert)\\<C-H>	delete char before caret
+(Denite insert)\\<C-K>	insert digraph
+(Denite insert)\\<C-N>	assign next text
+(Denite insert)\\<C-P>	assign previous text
+(Denite insert)\\<C-Q>	insert special
+(Denite insert)\\<C-R>	paste from register
+(Denite insert)\\<C-U>	delete entire text
+(Denite insert)\\<C-W>	delete word before caret
+(Denite insert)\\<DEL>	delete word under caret
+(Denite insert)\\<Left>	move caret to left
+(Denite insert)\\<S-Left>	move caret to one word left
+(Denite insert)\\<C-Left>	move caret to one word left
+(Denite insert)\\<Right>	move caret to right
+(Denite insert)\\<S-Right>	move caret to one word right
+(Denite insert)\\<C-Right>	move caret to one word right
+(Denite insert)\\<Up>	assign previous matched text
+(Denite insert)\\<S-Up>	assign previous text
+(Denite insert)\\<Down>	assign next matched text
+(Denite insert)\\<S-Down>	assign next text
+(Denite insert)\\<Home>	move caret to head
+(Denite insert)\\<End>	move caret to tail
+(Denite insert)\\<PageDown>	assign next text
+(Denite insert)\\<PageUp>	assign previous text
+(Denite insert)\\<Insert>	toggle insert mode
+(Denite insert)\\<C-G>	move to next line
+(Denite insert)\\<C-T>	move to previous line
+(Denite insert)\\<C-L>	redraw
+(Denite insert)\\<C-O>	enter mode:normal
+(Denite insert)\\<C-J>	input command line
+(Denite insert)\\<C-V>	do action:preview
+(Denite normal)\\i	enter mode:insert
+(Denite normal)\\I	insert to head
+(Denite normal)\\a	append
+(Denite normal)\\A	append to line
+(Denite normal)\\j	move to next line
+(Denite normal)\\h	move caret to left
+(Denite normal)\\l	move caret to right
+(Denite normal)\\k	move to previous line
+(Denite normal)\\b	move caret to one word left
+(Denite normal)\\w	move caret to next word
+(Denite normal)\\e	move caret to end of word
+(Denite normal)\\0	move caret to head
+(Denite normal)\\\$	move caret to tail
+(Denite normal)\\c	change word
+(Denite normal)\\cc	change line
+(Denite normal)\\cw	change word
+(Denite normal)\\dd	delete entire text
+(Denite normal)\\gg	move to first line
+(Denite normal)\\G	move to last line
+(Denite normal)\\<C-U>	scroll window upwards
+(Denite normal)\\<C-D>	scroll window downwards
+(Denite normal)\\<C-F>	scroll page forwards
+(Denite normal)\\<C-B>	scroll page backwards
+(Denite normal)\\p	do action:preview
+(Denite normal)\\d	do action:delete
+(Denite normal)\\n	do action:new
+(Denite normal)\\t	do action:tabopen
+(Denite normal)\\q	quit
+(Denite normal)\\<C-L>	redraw
+(Denite normal)\\<C-R>	restart
+(Denite normal)\\<Space>	toggle select down
+(Denite normal)\\*	toggle select all
+(Denite normal)\\M	print messages
+(Denite normal)\\P	change path
+% vim:spell:ft=tex:nosi:nocin:noai:inde=
