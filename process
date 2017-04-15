@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+[[ -n "$1" ]] || { echo "Please provide a deck (folder) name" >&2; exit 1; }
+head -n -2 "$1"/flashcards | sed -e '/^$/d;s/^/[latex]/;s/\t/[\/latex]\t[latex]/;s/$/[\/latex]/' > "$1"/anki

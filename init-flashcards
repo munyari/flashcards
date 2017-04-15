@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ mkdir "$1" || { echo 'Could not make directory' >&2 ; exit 1; }
+echo  "% vim:spell:ft=tex:nosi:nocin:noai:inde=" > "$1"/flashcards || { >&2 echo "Unable to create modeline"; exit 3; }
+
