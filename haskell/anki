@@ -1,0 +1,3 @@
+[latex]What is a lambda abstraction?[/latex]	[latex]An anonymous function; a function of the form \textbackslash x -> 100[/latex]
+[latex]What is an operator section?[/latex]	[latex]The partial application of an operator to one of its arguments. Usually of the form (?y) [equivalent to \textbackslash x -> x ? y] or (y?) [equivalent to \textbackslash x -> y ? x][/latex]
+[latex]How does function application associate?[/latex]	[latex]Function application is left associative. f 3 2 is shorthand for (f 3) 2[/latex]

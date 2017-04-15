@@ -1,0 +1,6 @@
+What is a lambda abstraction?	An anonymous function; a function of the form \textbackslash x -> 100
+What is an operator section?	The partial application of an operator to one of its arguments. Usually of the form (?y) [equivalent to \textbackslash x -> x ? y] or (y?) [equivalent to \textbackslash x -> y ? x]
+How does function application associate?	Function application is left associative. f 3 2 is shorthand for (f 3) 2
+
+
+% vim:spell:ft=tex:nosi:nocin:noai:inde=
